@@ -21,9 +21,9 @@ t.circle(outrad)
 
 
 for i in range(15):
-    for colours in ("red", "yellow", "blue"):
+    for colors in ("red", "yellow", "blue"):
         t.goto(0,0)
-        t.color(colours)
+        t.color(colors)
         t.pensize(3)
         t.left(12)
         t.forward(220)
